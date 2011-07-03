@@ -1,4 +1,8 @@
 SlobaJeCar::Application.routes.draw do
+  get "pages/home"
+
+  get "pages/aboutme"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
